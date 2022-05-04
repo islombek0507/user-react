@@ -1,0 +1,24 @@
+header ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+header{
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+}
+header ul a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 48px;
+    color: wheat;
+    flex-grow: 1;
+    display: block;
+margin-left: 15px;
+}

@@ -1,0 +1,21 @@
+.user{
+    height: auto;
+}
+.user__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 40%;
+}
+.user__item{
+  border-radius: 8px;
+  background-color: rgb(187, 231, 227);
+  font-size: 20px;
+  padding-left: 10px;
+  padding: 10px;
+}
+.user__item:nth-child(2n){
+    background-color: gray;
+    color: white;
+
+}
